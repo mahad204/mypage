@@ -5,7 +5,7 @@ body{
 
 
 section{
-    padding: 6em 1em;
+    padding: 10em 1em;
 }
 
 img{
@@ -20,7 +20,12 @@ img{
 }
 
 .titi{
-    font-weight: 200;
+    font-size: 25px;
+    background: rgb(137, 74, 74);
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    text-align: center;
 }
 
 
@@ -45,4 +50,10 @@ img{
 
 footer{
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
+
+
+
+
