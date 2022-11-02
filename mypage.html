@@ -1,101 +1,70 @@
-<!DOCTYPE html>
-<html>
-<head>
-    
-    <title>Protfolio Project</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="mypage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <h4>Portfolio</h4></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#manyt">Blog</a>
+                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#bambam">Contact</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <section class="intro" id="home">
+            <h1 class="section-title section-title-intro">
+                Hi, I am <strong>Mahad Nuh</strong>
+            </h1>
+            <p class="section-subtitle section-subtitle-intro">Web Developer</p>
     
-</head>
-<body>
-    <header>
-        <div class="logo">
-        <img src="" alt="">
-        </div>
-        
-        
-            <ul class="nav__list">
-                <button><a href="#home">Home</a></button>
-                <button><a href="#skills">Skills</a></button>
-                <button><a href="#about me">About </a></button>
-            </ul>
-    </header>
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Abdirahman Noor</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Web Developer</p>
-        
-        <img src="images/profile.jpg" alt="A picture of a profile" class="intro__img">
-    </section>
-    <section class="my-skills" id="skills">
-        <h2 class="section__title section__title--skills" >My skills</h2>
-        <div class="skills">
+            <img src="https://lh3.googleusercontent.com/CVijGGLiARHsDuYHgQa-WDduQ8VXzSSvdhrzr4WTG3IG52I0R3nB1595wUyDMOQJCPxldnWFFilfj7sRSaehvDpF-T5B3q2uG8GD0RIpRf1yBFOYGNxIayti7onKHdlFr50Tb-gffjH1LPmBVhwgG88l3iQfjFZkmfK-TY-raUNsmH1zP37QZe-7PvxCwxKXkYqtr2XVK8Tf62otCtVTguYsqC_0Pz1pQgsOAFyu-Q3MW8Z_crQGTC4iQvaIA8tDfY0-KrWmBhawRK2XYj5zvCS6BVqVRoRIMuwodqUJpyjV0Igf9Mn_ISBkoCpRherV2VdDrun8eCLjcDkWubeqBMAAfjGn79s0zmoljg2o0sFy2vlTpW71nPNOlJ6dsQvz9QW4emUL5Y647ijlCavugorpnJuqtIywyp6af9eCdRfQ1yYVqxcMAxCxHqg6ac0KO3FnPdnUpdZrS8Z5-ePyO-yP19bsnY5_toD2JG39kXsYKY1dC9x3Cexfgn2WX_ZLf4WVqOI_L_ViJ7VdJm6QbYT4k3mFvZNs7ueHXsw9MXZ4ThWp2WfZdfkJfeVTefzePwbw77wvoab2HxhmXFdWAyUCseWoprWxQuyKSvhc0ezpigyrY49dC-aQf8P9ixz5UXajRVnQSJ_4rMYeY1piHVJyk2PIR_bhKh4fQ0dyD0df6aQiSHqzrNUqKB7_Qw51nSR749AbhAixtMHpR0Pq-atz_zkw9cSzLHHqdkL-PCxVGe1_WElExrMnHj7OPORpWzqTR3xLLKLGvE4h4b53Dnm69Qzex294s0RAi-D66PAM6YSHgIiTjopKcbIGZoWSVlnQgtCsZIMS6yYXaTIIDg4O78_w4s6-7Jz_3g0ezkol9cra1eqCcFMe75ygxZj6N7JMx9oVGu2KtU8buL4R135ml9-xIKccx4Rnh1PrmJvkIC5Iola0hWVL-ZwOKdR2BaIzaRofkYNsAWstGDOfhTE=w522-h959-no?authuser=0" alt="A picture of a profile" class="intro__img">
+        </section>
+        <section class="myskills" id="manyt">
+            <h2 class="section-title section-title-skills" >My skills</h2>
             <div class="skills">
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <h3>HTML</h3>
-                <P>HTML is a text file containing specific syntax, file and naming conventions that show the computer and the web server that it is in HTML and should be read as such. By applying these HTML conventions to a text file in virtually any text editor, a user can write and design a basic webpage, and then upload it to the internet.</P>
-
-
+                <div class="skills">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+    
+                    <h3>HTML</h3>
+                    <P>HTML is a text file containing specific syntax, file and naming conventions that show the computer and the web server that it is in HTML and should be read as such. By applying these HTML conventions to a text file in virtually any text editor, a user can write and design a basic webpage, and then upload it to the internet.</P>
+    
+    
+                </div>
+                <div class="skills">
+                    <h3>CSS</h3>
+                    <P>CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation (every house has one), and CSS as the aesthetic choices (there’s a big difference between a Victorian mansion and a mid-century modern home).</P>
+    
+    
+                </div>
+                <div class="skills">
+                    <h3>GIT</h3>
+                    <P> Git is a version control (VCS) system for tracking changes to projects. Version control systems are also called revision control systems or source code management (SCM) systems. These projects can be large-scale programs like the Linux kernel, but they can also be smaller scale projects like your own R development, homework assignments, papers, or thesis. There are many other VCSs available (subversion and Mercurial are currently used extensively in opens source projects) but Git is one of the easier ones to set up. It is also well supported by the GitHub ecosystem, and UI has recently set up its own GitHub servise.</P>
+    
+                </div>        
             </div>
-            <div class="skills">
-                <h3>CSS</h3>
-                <P>CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation (every house has one), and CSS as the aesthetic choices (there’s a big difference between a Victorian mansion and a mid-century modern home).</P>
-
-
-            </div>
-            <div class="skills">
-                <h3>GIT</h3>
-                <P> Git is a version control (VCS) system for tracking changes to projects. Version control systems are also called revision control systems or source code management (SCM) systems. These projects can be large-scale programs like the Linux kernel, but they can also be smaller scale projects like your own R development, homework assignments, papers, or thesis. There are many other VCSs available (subversion and Mercurial are currently used extensively in opens source projects) but Git is one of the easier ones to set up. It is also well supported by the GitHub ecosystem, and UI has recently set up its own GitHub servise.</P>
-
-            </div>        
-        </div>
-        
-    </section>
-
-    <section class="about-me" id="about me">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Software & Design Development.</p>
-
-        <div class="about-me__body">
-            <p>I am Highschool graduate.I have woorked in cyber cafe for half a year. I am a tech enthusiast, interested in Web Developement.</p>
-            <p>I have close to half a year struggle experience in the tech space. Morianga School, being able to offer multi-disciplinary learning acceleration pragramme, intrested me because i would get digital and professional skills training, and become part of the already trained proffesional in the country.</p>
-        </div>
-        
-        <img src="images/profile.jpg" alt="A picture of a profile." class="about-me__img">
-    </section>
-    <section class="my-projects" id="projects">
-    <h2 class="my-projects">My Projects</h2>
-    <p class="section__subtitle--projects">Selection of my range project.</p>
-
-    <div class="projects">
-        <a href="#" class="project-items"><img src="apple.png" alt= ""class project__img"></a>
-        <a href="#" class="project-items"><img src="" alt= ""class project__img"></a>
-        <a href="#" class="project-items"><img src="" alt= ""class project__img"></a>
-        <a href="#" class="project-items"><img src="" alt= ""class project__img"></a>
-        <a href="#" class="project-items"><img src="" alt= ""class project__img"></a>
-        <a href="#" class="project-items"><img src="" alt= ""class project__img"></a>
-        
-
+        </section>
+        <footer style="padding-top: 2em;" id="bambam">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">Mahadabdiwahab@gmail.com</a>
+        </footer>
+    
     </div>
-    </section>
-    <footer class="footer">
-        <a href="abdirahmannoor09@hotmail.com" class="footer__link">abdirahmannoor09@hotmail.com</a>
-        <ul class="social-list">
-            <li><a href="#social-list__item" class="fa fa-facebook"></a></li>
-            <li><a href="#social-list__item" class="fa fa-twitter"></a></li>
-            <li><a href="#social-list__item" class="fa fa-instagram"></a></li>
-        </ul>
-        
-            
-
-        </div>
-    </footer>
-    
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>

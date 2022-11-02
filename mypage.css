@@ -1,13 +1,11 @@
 body{
-    background: light;
-    color: black;
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 900;
-    line-height: 1.6; 
+    background-color: bisque;
 }
-section {
-    padding: 5em 2em;
+
+
+
+section{
+    padding: 6em 1em;
 }
 
 img{
@@ -15,169 +13,34 @@ img{
     max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
-    line-height: 1.1;
-    margin: 0;
+
+.section-title-intro{
+    display: block;
+    font-weight: 200;
 }
 
-h1 {font-size: 3rem;}
-h2 {font-size: 2.25rem;}
-h3 {font-size: 1rem;}
 
-.section__title{
-    margin-bottom: 0.25em;
-}
 
-.section__title--intro{
-    font-weight: 300;
-}
-.section__title--intro {
+
+
+.section-title-skills {
+    position: relative;
     display: block;
 }
 
-.section__subtitle{
-    margin: 0;
-    font-size: 1rem;
-}
 
-.section__subtitle--intro,
-.section__subtitle--about {
-    /* background: cyan; */
-    font-family:monospace ;
-    font-size: xx-large;
-}
 
-@media (min-width:600px) {
-    .intro {
-        display: grid;
-        width: min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas:
-        "img title" 
-        "img subtitle";
-        grid-template-columns: min-content max-content;
-    }
- .intro__img {
-     grid-area: img;
-     min-width: 250px;
-     position: relative;
-     z-index: 2;
- }
 
- .section__subtitle--intro{
-     align-self: start;
-     grid-column: -1/1;
-     grid-row: 2;
-     text-align: right;
-     position: relative;
-     left: -1.5em;
-     width: calc(100% + 1.5em);
- }
-   
- .my-skills {
-     background: rgb(168, 159, 159);
-     background-image: url(../images/background.jpeg);
-     background-size: cover;
-     background-blend-mode: multiply;
-     color: white;
-     text-align: center;
- }
-
- .section__title--skills {
-     color: cyan;
-     position: relative;
-     
- }
-
- .section__title--skills {
-     content: none;
-     display: block;
- }
-
- @media (min-width: 800px) {
-     .my-skills{
-         display: flex;
-         max-width: 1000px;
-         margin: 0 auto;
-     }
-
-     .my-skills + .my-skills {
-         margin-left: 2em;
-     }
- }
-
-}
-
-.about-me {
-    min-width: 1000px;
-    margin: 2em;
-}
-
-@media (min-width:600px) {
-    .about-me{
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-        "title img"
-        "subtitle img"
-        "text img";
-    }
-
-    .section__title--about{
-        grid-area: title;
-    }
-
-    .section__subtitle--about {
-        grid-column: 1/-1;
-        grid-row: 2;
-    }
-    
-    .about-me__img {
-        grid-row: 1/-1;
-        grid-column: 2;
-        z-index: 2;
-    }
-
-}
-
-.my-projects {
-    background: black;
-    color: white;
+.myskills {
+    background: rgb(168, 159, 159);
+    background-image: url(https://lh3.googleusercontent.com/Igy9McqJvyI6GXzYqkwBN_N_hSWeXyK1RugNvjFEt9kfjM3keX9XbRQsSk3GhcV3icXF8rolZWS1QXrBpjoMgEk0WdEqZ11N1VgwtJ40eQ1VF4sa-SHA1seyID6kr3E_YjK2KIrEYfi5tb1hYKJb1n6S54mwzMqN4lWxgj2uy7AMlgmEwKOZ6I0_3Ev17cAU2C9fJtp3rp54w0g6vhyH5wIhE7kSgbzndBsPNVjjMuU6iqfE5ZGg3IGZ0_JW5lqfrcRvybXs_wIWGhvLfNRgjnXZ-cB5nwWC4TqjhTDV86ZTUdDe2E2mgASF7b5nJn4RdFsQuZ8ylksXBwp-xq0S8o4PbufbHI4y0XImpvYsa_ewebZbiABYeNEaEN_cTrJ-mPZTM01w3nAzLZLUMI6bMt7MdbjIEX3Eik8WebHKfbGEsLM6Pk3jEykk2YfJhMei1L__vUsvJpUI47970BqamoUD2VJfVxlvZOE6bQPxBVLzgpL4dpfEml1SSvKI3K4AZaze-b9d-haQcDye8s048aqubPAnDG58wly1hv2cpsoEGaFgmgWWx2JckhmXVxeegkvan4yoPHoitulB5cs0IpvF8exgqcWzhniyVm6RsvamxFFRmYayiiu5GdUGC1Y4cazOUVClzG9ildntbioi4tMdTZ_zD8TyUeYLbE_HNloqfakF3i4WJ6tPTDDmzgm3Tmk_ty77Sy2fx3O8INL3WWM_liURuH39zlflj3ldrCSvYROR00muRXiQ-wqzWa7eSX9Fe3qCMZCQK_vke4N-DXGNVd2OtxKtzEZhpNJk9OEuc_3szKZ1k93iecDPxq4OgorJFH9NYdhHAWK-xbIriwl_9PO0Igthx0LQjxB2axGhfbva7jyyJ8SbEbdQrtgQ4a3gUYFCrfpQ9tZqN18d3WDcz_f-EUppRowZ5DXJCcPAWpDf_33PCImbpOZALqOB_sM-rwf5cxxaw4JkCW7veOQ=w522-h959-no?authuser=0);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: rgb(106, 206, 205);
     text-align: center;
 }
+ 
 
-.section__subtitle--projects {
-    color: cyan;
-    font-weight: 900;
+footer{
     text-align: center;
 }
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.footer {
-    padding: 2.5em;
-    text-align: center;
-}
-
- .social-list {
-     list-style: none;
-     display: flex;
-     justify-content: center;
-     margin: 4em, 0;
- }
-
- social-list__item {
-     margin: 0.5em;
- }
-
- .footer__link {
-     font-size: large;
-     font-family: monospace;
-     font-size: larger;
- }
